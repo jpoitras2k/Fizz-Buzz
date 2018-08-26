@@ -6,7 +6,7 @@ startnum = 1 # starting number as a variable
 endnum = 100
     
 
-for number in range(startnum, endnum):
+for number in range(startnum, endnum+1):
      if number %3 == 0 and number % 5 == 0:
         print ('FizzBuzz')
         #exits loop if true - remainder is 0
